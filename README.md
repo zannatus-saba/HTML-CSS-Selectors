@@ -24,9 +24,12 @@ I will use the following webpage: https://en.wikipedia.org/wiki/Birth_rate. This
 
 Using this table, we will generate the CSS selectors for the following:
 
-The first column Years 
+The first column Years
+  
 The second column CBR 
+  
 The third column Years 
+  
 The fourth column CBR 
 
 The table's title contains a link referencing a source at the end of the page, this is [8] which is Note 8.
