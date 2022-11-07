@@ -1,0 +1,31 @@
+<tr class="news-item">
+    <td class="primary_photo">
+        <a href="https://news.okstate.edu/articles/business/images/daysia_blackwell_thumb.jpg" src="https://news.okstate.edu/articles/business/images/daysia_blackwell_thumb.jpg" alt="From Braum's to OSU, Blackwell Is paving path to success" class="news-item__image">
+    </td>
+    <td><img data-lazy-img="https://news.okstate.edu/articles/business/images/daysia_blackwell_thumb.jpg"</a></td>
+    <td class="<span class"news-item__date">Oct 12</span>>...</td>
+    <td <p class="news-item__description"></p>>
+        <a href="//news.okstate.edu/articles/business/images/daysia_blackwell_thumb.jpg">"</a>
+    </td>
+</tr>
+
+### Create a CSS for the anchor tags using only the anchor tag and ignoring container tags.  
+
+a[class="teaser__link"] {
+  backgroud-color: yellow;
+}
+
+### Create a CSS selector for the anchor tags starting with a <div> tag that contains the anchor tag
+    
+div > a {
+    background-color: yellow;
+}
+    
+### generate a CSS selector for only the first news article using the pseudo-class selector nth-child()
+    
+a:nth-child(2)
+    
+    
+#main-content > div.news-and-events.news-and-events--bg-shaded > div > div.news-and-events__news > div > div.news-panel__body > div > div:nth-child(1) > img
+
+#main-content > div.news-and-events.news-and-events--bg-shaded > div > div.news-and-events__news > div > div.news-panel__body > div > div:nth-child(2) > a
